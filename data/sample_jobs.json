@@ -1,0 +1,72 @@
+[
+  {
+    "source": "sample_board",
+    "title": "SEOライター募集（業務委託・フルリモート）",
+    "company": "株式会社Alpha",
+    "description": "オウンドメディアのSEO記事制作。キーワード選定、構成作成、執筆まで対応できる方。長期歓迎。",
+    "contract_type": "業務委託",
+    "role_category": "seo_writer",
+    "budget_min": 100000,
+    "budget_max": 180000,
+    "work_style": "remote",
+    "required_skills": ["SEO", "記事構成", "執筆"],
+    "posted_at": "2026-05-01",
+    "url": "https://example.com/jobs/1"
+  },
+  {
+    "source": "sample_board",
+    "title": "Webライター（単発）",
+    "company": "株式会社Beta",
+    "description": "SEO要素は薄め。一般記事の執筆中心。",
+    "contract_type": "業務委託",
+    "role_category": "other",
+    "budget_min": 30000,
+    "budget_max": 50000,
+    "work_style": "remote",
+    "required_skills": ["執筆"],
+    "posted_at": "2026-05-03",
+    "url": "https://example.com/jobs/2"
+  },
+  {
+    "source": "sample_board",
+    "title": "SEOディレクター（週2出社）",
+    "company": "株式会社Gamma",
+    "description": "コンテンツSEO戦略、編集体制構築、ライター管理。中長期案件。",
+    "contract_type": "業務委託",
+    "role_category": "seo_director",
+    "budget_min": 120000,
+    "budget_max": 250000,
+    "work_style": "hybrid",
+    "required_skills": ["SEO", "ディレクション", "GA4"],
+    "posted_at": "2026-05-02",
+    "url": "https://example.com/jobs/3"
+  },
+  {
+    "source": "sample_board",
+    "title": "正社員マーケター募集",
+    "company": "株式会社Delta",
+    "description": "自社マーケ担当を募集。",
+    "contract_type": "正社員",
+    "role_category": "other",
+    "budget_min": 0,
+    "budget_max": 0,
+    "work_style": "on_site",
+    "required_skills": ["広告運用"],
+    "posted_at": "2026-05-04",
+    "url": "https://example.com/jobs/4"
+  },
+  {
+    "source": "sample_board",
+    "title": "SEOライター（週3・業務委託）",
+    "company": "株式会社Epsilon",
+    "description": "SEO記事の構成・執筆を担当。継続前提。",
+    "contract_type": "業務委託",
+    "role_category": "seo_writer",
+    "budget_min": 60000,
+    "budget_max": 75000,
+    "work_style": "hybrid",
+    "required_skills": ["SEO", "執筆"],
+    "posted_at": "2026-05-06",
+    "url": "https://example.com/jobs/5"
+  }
+]

@@ -1,0 +1,8 @@
+[project]
+name = "seo-job-auto-apply-tool"
+version = "0.1.0"
+description = "Phase 1 MVP: evaluate SEO freelance jobs from sample data"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
