@@ -1,0 +1,68 @@
+{
+  "app": {
+    "timezone": "Asia/Tokyo"
+  },
+  "input": {
+    "sample_jobs_path": "data/sample_jobs.json",
+    "input_format": "csv",
+    "csv_jobs_path": "data/input_jobs.csv"
+  },
+  "output": {
+    "result_csv_path": "output/phase1_results.csv"
+  },
+  "must_conditions": {
+    "contract_type_includes": [
+      "業務委託"
+    ],
+    "seo_positive_keywords": [
+      "SEO",
+      "コンテンツSEO",
+      "テクニカルSEO",
+      "SEOライター",
+      "SEOディレクター",
+      "検索流入",
+      "キーワード選定"
+    ],
+    "seo_negative_patterns": [
+      "SEO要素は薄め",
+      "SEO不要",
+      "SEO経験不要",
+      "SEOは不要",
+      "SEO知識不要"
+    ],
+    "preferred_role_categories": [
+      "seo_writer",
+      "seo_director"
+    ]
+  },
+  "scoring": {
+    "thresholds": {
+      "keep_min_score": 70,
+      "hold_min_score": 55
+    },
+    "weights": {
+      "role_fit": 30,
+      "budget_fit": 20,
+      "work_style_fit": 15,
+      "skill_fit": 20,
+      "continuity_signal": 10,
+      "clarity_bonus": 5,
+      "seo_negative_penalty": 20,
+      "seo_weak_penalty": 10
+    },
+    "preferences": {
+      "min_budget": 80000,
+      "preferred_work_style": [
+        "remote"
+      ],
+      "skill_keywords": [
+        "SEO",
+        "記事構成",
+        "キーワード選定",
+        "ディレクション",
+        "GA4",
+        "Search Console"
+      ]
+    }
+  }
+}

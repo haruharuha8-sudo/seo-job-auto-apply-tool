@@ -1,0 +1,6 @@
+source,title,company,role_category,employment_type,budget_min,budget_max,work_style,description,required_skills,nice_to_have,url,posted_at
+manual_csv,SEOライター募集（業務委託・フルリモート）,株式会社Alpha,seo_writer,業務委託,100000,180000,remote,オウンドメディアのSEO記事制作。キーワード選定、構成作成、執筆まで対応できる方。長期歓迎。,"SEO,記事構成,執筆","GA4,Search Console",https://example.com/jobs/1,2026-05-01
+manual_csv,Webライター（単発）,株式会社Beta,other,業務委託,30000,50000,remote,SEO要素は薄め。一般記事の執筆中心。,執筆,,https://example.com/jobs/2,2026-05-03
+manual_csv,SEOディレクター（週2出社）,株式会社Gamma,seo_director,業務委託,120000,250000,hybrid,コンテンツSEO戦略、編集体制構築、ライター管理。中長期案件。,"SEO,ディレクション,GA4",,https://example.com/jobs/3,2026-05-02
+manual_csv,正社員マーケター募集,株式会社Delta,other,正社員,0,0,on_site,自社マーケ担当を募集。,広告運用,,https://example.com/jobs/4,2026-05-04
+manual_csv,SEOライター（週3・業務委託）,株式会社Epsilon,seo_writer,業務委託,60000,75000,hybrid,SEO記事の構成・執筆を担当。継続前提。,"SEO,執筆",,https://example.com/jobs/5,2026-05-06
