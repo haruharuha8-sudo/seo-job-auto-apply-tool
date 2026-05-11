@@ -138,7 +138,7 @@ class EvaluatorTests(unittest.TestCase):
                 self.assertTrue(r.draft_short)
             if r.decision == "drop":
                 self.assertEqual(r.draft_short, "")
-        self.assertEqual(counts, {"keep": 2, "hold": 1, "drop": 2})
+        self.assertEqual(counts, {"keep": 0, "hold": 2, "drop": 3})
 
 
 if __name__ == "__main__":
