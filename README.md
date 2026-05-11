@@ -41,3 +41,10 @@ python3 -m src.main
 ```bash
 python3 -m unittest discover -s tests -v
 ```
+
+## 運用フロー（CSV運用）
+- `data/input_jobs.csv` を編集する
+- `python3 -m src.main` を実行する
+- `output/phase1_results.csv` がローカルに生成される
+- `output/phase1_results.csv` はGit管理しない
+- 応募は自動実行されず、応募文下書きの確認まで
